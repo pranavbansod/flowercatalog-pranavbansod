@@ -1,0 +1,52 @@
+body {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h2{
+  color: orange;
+  text-align: center;
+}
+
+#abeliophyllum {
+  width:500px;
+  height:500px;
+}
+
+#ageratum {
+  width:600px;
+  height:500px;
+}
+
+td  {
+  vertical-align: bottom;
+}
+
+#mainSubContent {
+  font-size: 24px;
+}
+
+#guest {
+  font-size: 36px;
+  padding-left: 10%;
+}
+
+#commentTitle {
+  color: black;
+  text-align: left;
+  font-size: 30px;
+}
+
+table {
+  width: 75%;
+}
+
+
+td{
+  text-align: justify;
+}
+
+th{
+  text-align: center;
+}

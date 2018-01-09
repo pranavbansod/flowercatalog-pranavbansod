@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/guestBook.css"/>
+    <script type="text/javascript" src="./js/allGuestData.js"></script>
+    <script type="text/javascript" src="./js/renderData.js"></script>
+    <title>Guest Book</title>
+  </head>
+  <body>
+    <h2 id="guest">
+      <a href="./index.html">
+        <<
+      </a>
+      Guest Book
+    </h2>
+    <h2 id="commentTitle">
+      Leave a comment
+    </h2>
+    <br>
+    <form class="" action="storeComment" method="post">
+      Name:<input type="text" name="name" value="" required>
+      <br>
+      Comment:<textarea name="comment" value="" rows="5" cols="25" required></textarea>
+      <br>
+      <input type="submit" name="" value="Submit">
+      <br>
+    </form>
+    <hr>
+    <p>
+      <h3 align=left>Date_Time_Name_Comment</h3>
+    </p>
+    <div align="center" id="data">
+    </div>
+  </body>
+</html>
